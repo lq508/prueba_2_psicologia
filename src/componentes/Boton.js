@@ -24,11 +24,11 @@ function Boton (props){
     let valor = false;
 
     setCargado2(valor);
+    props.Consulta_api();
 
 
     setTimeout(function(){
       valor=true;
-       props.Consulta_api();
 
       setCargado2(valor);
 
